@@ -1,0 +1,178 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.divbox1 {
+  background-color: #1d1d1d;
+}
+
+.divbox1 .container {
+  padding: 0px 200px 0px !important;
+}
+
+@media only screen and (max-device-width: 599px), only screen and (max-width: 599px) {
+  .divbox1 .container {
+    padding: 0px !important;
+  }
+}
+
+@media only screen and (max-device-width: 1000px), only screen and (max-width: 1000px) {
+  .divbox1 .container {
+    padding: 0px !important;
+  }
+}
+
+.divbox1 .navg {
+  padding: 30px 0px 40px;
+}
+
+.divbox1 .divbox1-text {
+  color: #838586;
+  padding-left: 50px;
+  font-size: 14px;
+}
+
+.divbox2 {
+  background-color: #1d1d1d;
+  height: 300px;
+  margin: 0px;
+}
+
+@media only screen and (max-device-width: 599px), only screen and (max-width: 599px) {
+  .divbox2 {
+    height: 600px !important;
+  }
+}
+
+.divbox2 .container {
+  padding: 0px 200px 0px !important;
+}
+
+@media only screen and (max-device-width: 1000px), only screen and (max-width: 1000px) {
+  .divbox2 .container {
+    padding: 0px !important;
+  }
+}
+
+@media only screen and (max-device-width: 599px), only screen and (max-width: 599px) {
+  .divbox2 .container {
+    padding: 0px !important;
+  }
+}
+
+.divbox2 .content {
+  text-align: center;
+  color: white;
+  background-color: #1d1d1d;
+  font-size: 24px;
+  padding: 30px;
+  margin: 0px;
+}
+
+.divbox2 .inner-divbox1 {
+  padding: 40px 0px;
+}
+
+.divbox2 .text-header {
+  color: white;
+  font-size: 24px;
+  padding: 0px 0px 25px;
+}
+
+.divbox2 .text-content {
+  color: #Afafaf;
+  padding: 0px 0px 25px;
+  text-align: left;
+  line-height: 30px;
+}
+
+.divbox2 .button-1 {
+  background-color: #1d1d1d;
+  padding: 12px 25px;
+  border-top: white;
+  border-width: 2px;
+  color: #cdcdcd;
+}
+
+.divbox2 hr {
+  background-color: #000000;
+  margin: 0px;
+}
+
+.divbox2 .inner-divbox-1 .img1 {
+  padding: 40px 0px 30px;
+  vertical-align: middle;
+}
+
+.divbox2 .inner-divbox-1 .button-2 {
+  background-color: #1d1d1d;
+  padding: 12px 25px;
+  border-top: white;
+  border-width: 2px;
+  color: white;
+}
+
+.divbox2 .inner-divbox-1 .text-header-1 {
+  font-size: 20px;
+  padding: 0px 0px 10px;
+  color: white;
+}
+
+.divbox2 .inner-divbox-1 hr {
+  background-color: #000000;
+  margin: 0px;
+}
+
+.divbox2 .inner-divbox-1 .text-content-1 {
+  font-size: 16px;
+  padding: 0px 0px 20px;
+  color: #Afafaf;
+}
+
+.divbox2 .inner-divbox-1 .row {
+  padding-bottom: 40px;
+}
+
+.divbox2 .inner-divbox-1 .padhead {
+  padding: 25% 0px 0px;
+}
+
+.divbox2 .inner-divbox-1 .img2 {
+  padding-right: 70px;
+}
+
+.divbox4 {
+  background-color: #1d1d1d;
+}
+
+.divbox4 .inner-div4 {
+  padding: 50px 0px;
+}
+
+.divbox4 .divpad-4 {
+  padding-bottom: 30px;
+}
+
+.divbox4 .img-pad {
+  padding-left: 20px;
+}
+
+.divbox4 .footers {
+  text-align: center;
+  color: #838586;
+}
+
+.divbox4 .footers .footer1 {
+  font-size: 14px;
+  padding: 0px 0px 10px;
+}
+
+.divbox4 .footers .footer2 {
+  font-size: 12px;
+  padding: 0px 0px 20px;
+}
+
+.divbox4 .footers .footer2 {
+  font-size: 12px;
+}
+/*# sourceMappingURL=custom.css.map */

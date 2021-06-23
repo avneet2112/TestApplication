@@ -1,0 +1,137 @@
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.divbox1 {
+  background-color: $bg-divbox2;
+ 
+  .container{
+    padding: 0px 200px 0px!important;
+    @include breakpoint(mobile) {
+    padding: 0px !important;
+    }
+    @include breakpoint(laptop) {
+      padding: 0px!important ;
+      }
+  }
+  .navg{
+    padding: 30px 0px 40px;
+  }
+  .divbox1-text{
+    color: #838586;
+    padding-left:50px;
+    font-size: 14px;
+  }
+ 
+}
+
+.divbox2 {
+  background-color: $bg-divbox2;
+  height: 300px;
+  margin: 0px;
+  @include breakpoint(mobile) {
+    height: 600px !important;
+    }
+  .container{
+    padding: 0px 200px 0px!important;
+    @include breakpoint(laptop) {
+      padding: 0px!important ;
+    }
+    @include breakpoint(mobile) {
+    padding: 0px !important;
+    }
+   
+  }
+  .content {
+    text-align: center;
+    color: $color-white;
+    background-color: $bg-divbox2;
+    font-size: 24px;
+    padding: 30px ;
+    margin: 0px;
+  }
+  .inner-divbox1{
+    padding: 40px 0px;
+  }
+  .text-header{
+    color: $color-white;
+    font-size: 24px;
+    padding: 0px 0px 25px;
+  }
+  .text-content{
+    color: #Afafaf;
+    padding: 0px 0px 25px;
+    text-align: left;
+    line-height: 30px;
+  }
+  .button-1{
+    background-color: $bg-divbox2;
+    padding: 12px 25px;
+    border-top: $color-white;
+    border-width: 2px;
+    color: #cdcdcd;
+  }
+  hr{
+    background-color: #000000;
+    margin: 0px;
+  }
+  .inner-divbox-1{
+    .img1{
+      padding: 40px 0px 30px;
+      vertical-align: middle;
+    }
+    .button-2{
+      @include button-all;
+    }
+    .text-header-1{
+      font-size: 20px;
+      padding: 0px 0px 10px;
+      color:$color-white;
+    }
+    hr{
+      background-color: #000000;
+      margin: 0px;
+    }
+    .text-content-1{
+      font-size: 16px;
+      padding: 0px 0px 20px;
+      color: #Afafaf;
+    }
+    .row{
+      padding-bottom: 40px;
+    }
+    .padhead{
+      padding: 25% 0px 0px;
+    }
+    .img2{
+      padding-right: 70px;
+    }
+  }
+}
+.divbox4{
+  background-color: $bg-divbox2;
+  .inner-div4{
+    padding: 50px 0px;
+  }
+  .divpad-4{
+    padding-bottom: 30px;
+  }
+  .img-pad{
+   padding-left: 20px;
+  }
+  .footers{
+    text-align: center;
+    color: #838586;
+    .footer1{
+      font-size: 14px;
+      padding: 0px 0px 10px;
+    }
+    .footer2{
+      font-size: 12px;
+      padding: 0px 0px 20px;
+    }
+    .footer2{
+      font-size: 12px;
+    }
+  }
+}

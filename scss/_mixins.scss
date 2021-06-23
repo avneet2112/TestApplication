@@ -1,0 +1,23 @@
+//media query
+@mixin breakpoint($point) {
+  @if $point==mobile {
+        @media only screen and (max-device-width: 599px), only screen and (max-width: 599px){
+            @content ;
+        }
+    }
+    @else if $point==laptop {
+        @media only screen and (max-device-width: 1000px), only screen and (max-width: 1000px){
+            @content ;
+        }
+    }
+
+}
+
+
+@mixin button-all(){
+    background-color: #1d1d1d;
+    padding: 12px 25px;
+    border-top: $color-white;
+    border-width: 2px;
+    color: $color-white;
+}
